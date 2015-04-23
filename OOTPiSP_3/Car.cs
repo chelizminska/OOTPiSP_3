@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOTPiSP_3
 {
-    class Car
+    [Serializable]
+    public class Car
     {
+        public string Name;
+        public int MaxSpeed;
     }
 }
