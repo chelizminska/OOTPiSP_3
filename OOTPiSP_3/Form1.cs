@@ -22,8 +22,8 @@ namespace OOTPiSP_3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Car car = new Car { Name = "Audi A6", MaxSpeed = 240 };
-            XmlSerializer formatter = new XmlSerializer(typeof(Car));
+            Bicycle car = new Bicycle { Name = "Audi A6", MaxSpeed = 240 };
+            XmlSerializer formatter = new XmlSerializer(typeof(Bicycle));
 
             using (FileStream fs = new FileStream("cars.xml", FileMode.OpenOrCreate))
             {
