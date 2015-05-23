@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfBicycle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bicycle xsi:type="RoadBike">
+    <FieldNames>
+      <string>Name</string>
+      <string>ReleaseYear</string>
+      <string>Color</string>
+      <string>WheelsDiameter</string>
+      <string>NumberOfSpeeds</string>
+    </FieldNames>
+    <Name>rgtet</Name>
+    <Type>RoadBike</Type>
+    <ReleaseYear>gr</ReleaseYear>
+    <Color />
+    <WheelsDiameter />
+    <NumberOfSpeeds />
+  </Bicycle>
+  <Bicycle xsi:type="Hybrid">
+    <FieldNames>
+      <string>Name</string>
+      <string>ReleaseYear</string>
+      <string>Color</string>
+      <string>WheelsDiameter</string>
+      <string>NumberOfSpeeds</string>
+      <string>Material</string>
+    </FieldNames>
+    <Name>dfgh</Name>
+    <Type>Hybrid</Type>
+    <ReleaseYear />
+    <Color />
+    <WheelsDiameter />
+    <NumberOfSpeeds />
+    <Material />
+  </Bicycle>
+</ArrayOfBicycle>
